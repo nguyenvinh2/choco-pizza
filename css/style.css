@@ -1,4 +1,4 @@
-.title img{
+.title img {
   float: left;
 }
 
@@ -6,88 +6,98 @@
   clear: both;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
   margin-top: 25px;
-
 }
 
-.nav-bars li{
+.nav-bars li {
   display: inline-block;
 }
-#rss-icon{
+
+#rss-icon {
   margin-left: 10px;
 }
-.bar{
+
+.bar {
   height: 20px;
   background-image: url("../assets/hr-img.png");
   background-repeat: repeat;
-  
   margin: 25px auto;
 }
 
-body{
+body {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-
 }
-main div{
+
+main div {
   display: flex;
   justify-content: space-between;
-
 }
-#main-img{
+
+#main-img {
   width: 100%;
   margin-top: 15px;
   margin-bottom: 15px;
-
 }
-main div p{
+
+main div p {
   text-indent: 25px;
   margin-bottom: 20px;
   font-size: 18px;
   line-height: 25px;
 }
 
-.list{
+.list {
   background-image: url("../assets/list-bg.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: 300px;
+  height: 250px;
 }
 
-.instructions{
+.instructions {
   display: block;
 }
-#author{
+
+.instructions p{
+  color: grey;
+}
+
+#author {
   height: 68px;
 }
-#author p{
+
+#author p {
   text-indent: 0px;
   clear: both;
   display: block;
   max-width: 90%;
 }
-#author img{
+
+#author img {
   float: left;
   width: auto;
   margin-right: 15px;
 }
-button{
+
+button {
   background-color: orangered;
   color: white;
   width: 200px;
   height: 50px;
   font-size: 18px;
 }
-hr{
+
+hr {
   margin-top: 90px;
 }
-footer div{
+
+footer div {
   display: block;
   width: 35px;
   margin-right: auto;
@@ -97,10 +107,71 @@ footer div{
   background-color: white;
   margin-bottom: 30px;
 }
-footer p{
+
+footer p {
   text-align: center;
   color: grey;
 }
-footer p:last-child{
+
+footer p:last-child {
   margin-bottom: 70px;
+}
+
+.list div {
+  display: block;
+}
+
+.list ul {
+  margin: auto auto;
+  font-size: 20px;
+}
+
+.list li {
+  margin-bottom: 10px;
+  max-width: 400px;
+  text-align: left;
+}
+
+span {
+  margin-left: 25px;
+}
+
+.line {
+  text-decoration-line: line-through;
+}
+
+h1 {
+  margin-left: 60px;
+  font-size: 25px;
+  font-family: 'Pacifico', cursive;
+}
+
+h2 {
+  margin-top: 7px;
+  margin-left: 60px;
+  font-size: 10px;
+  color: grey;
+}
+
+h4 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+}
+
+h6{
+  font-size: 15px;
+  color: grey;
+  margin-top: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#print img {
+  height: 14px;
+  margin-top: 10px
+} 
+
+h3 {
+  font-weight: bolder;
+  font-size: 25px;
+  margin-bottom: 5px;
 }
