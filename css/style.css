@@ -5,3 +5,38 @@
 .nav-bars {
   clear: both;
 }
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+
+}
+
+.nav-bars li{
+  display: inline-block;
+}
+#rss-icon{
+  margin-left: 10px;
+}
+.bar{
+  height: 20px;
+  background-image: url("../assets/hr-img.png");
+  background-repeat: repeat;
+  
+  margin: 25px auto;
+}
+
+body{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+main div{
+  display: flex;
+  justify-content: space-between;
+  
+}
